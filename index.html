@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width", initial-scale="1.0" name="viewport"> 
+        
+        <title>My Profile Blog</title>
+
+        <!-- CSS file -->
+        <link rel="stylesheet" href="static/css/style.css">
+
+        <!-- Bootstrap Links -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
+    
+    </head>
+    <body>
+        
+        <!-- ===== Preloader ===== -->
+        <div id="loadingScreen" class="loading-screen">
+            <div class="spinner"></div>
+        </div>
+
+        <div id="content"></div>
+        <!-- ===== Navbar ===== -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand fade-up" href="#">My Profile Blog</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav mx-auto fade-up">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#resume">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#interest">Area of Interest</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav><!--End of Navbar Section-->
+
+        <!-- ===== Home ====== -->
+        <section id="home">
+            <h1 class="text-center fade-up">Meenatchi S</h1>
+            <div class="typing-container">
+                <p class="fade-up"><span id="static-text">I'm </span>
+                <span id="animated-text"></span>
+                <span class="cursor">|</span></p>
+            </div>          
+              
+            <ul class="fade-up">
+                <a href="www.linkedin.com/in/meenatchi-subramaniam" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                
+                <a href="https://github.com/meenatchi-codes" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a>
+                
+                <a href="mailto:meenatchi224@gmailcom">
+                    <i class="bi bi-envelope-fill"></i>
+                </a>
+            </ul>
+        </section><!--End of Home Section-->
+
+        <!-- ===== About ===== -->
+        <section id="about">
+            <h1 class="fade-up">About</h1>
+            <div style="text-align: center;" class="fade-up">
+            <p>I am Meenatchi, born and raised in Erode. I recently completed a Python Full Stack Developer course at Brainery Spot Technology.<br> I am passionate about web development and eager to create impactful solutions through technology.</p>
+            <p>I have done my schoolings from Govt.hr.sec.school with 92% marks in 10th and 60% in 12th std.</p>
+            <p>Talking about my family, it consists of four members: my father, my mother, my younger sister, and me.</p>
+            <p>My father is a weaver, and my mother is a housewife.</p><br>
+            </div>
+            <div class="container-fluid">
+                <div class="row" id="para">
+                    
+                    <div class="col-lg-7 col-md-7 col-12 fade-up">
+                        <h4>Full-Stack Developer</h4>
+                        <p>My hobbies include drawing and playing chess, where I competed at the zone level in chess competitions during my school and college years. As for my strengths, I am a quick learner, innovative, and possess a positive attitude, always committed to my work. My ultimate goal is to pursue a career that I am passionate about, and I believe your company can provide me with that opportunity.</p>
+                        <div class="row" id="parab">
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <p><b><span style="color:#29f700; font-size:20px;">> </span>Birthday :</b>22 April 2002</p>
+                                <p><b><span style="color:#29f700; font-size:20px;">> </span>Phone : </b>+91 6382983819</p>
+			                    <p><b><span style="color:#29f700; font-size:20px;">> </span>City : </b>Gobichettipalayam</p>
+                                <p><b><span style="color:#29f700; font-size:20px;">> </span>Website : </b>www.linkedin.com/in/meenatchi-subramaniam</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <p><b><span style="color:#29f700; font-size:20px;">> </span>Age : </b>22</p>
+                                <p><b><span style="color:#29f700; font-size:20px;">> </span>Degree : </b>BCA</p>
+                                <p><b><span style="color:#29f700; font-size:20px;">> </span>Email : </b>meenatchi224@gmail.com</p>
+                                <p><b><span style="color:#29f700; font-size:20px;">> </span>District : </b>Erode-638503</p> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <img src="static/images/about.jpg" class="img-fluid" alt="Profile picture of Meenatchi S.">
+                    </div>
+                </div>
+            </div>
+        </section><!--End of About Section-->
+
+        <!-- ===== Skills ===== -->
+        <section id="skills">
+            <div class="container center-content">
+                <h1 class="fade-up">Skills</h1>
+                <p class="fade-up"><i>"I am showcasing the set of skills I have acquired through self-learning."</i></p>
+                <div class="row">
+                    <!-- Left Column -->
+                    <div class="col-lg-6 col-md-6 col-12 fade-up">
+                        <!-- Skill items -->
+                        <div class="skill-item">
+                            <span>HTML</span>
+                            <div class="custom-progress">
+                                <div class="custom-progress-bar" style="width: 90%;">
+                                    <span class="progress-text">90%</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="skill-item">
+                            <span>CSS</span>
+                            <div class="custom-progress">
+                                <div class="custom-progress-bar" style="width: 85%;">
+                                    <span class="progress-text">85%</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="skill-item">
+                            <span>Bootstrap</span>
+                            <div class="custom-progress">
+                                <div class="custom-progress-bar" style="width: 80%;">
+                                    <span class="progress-text">80%</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="custom-progress">
+                                <div class="custom-progress-bar" style="width: 70%;">
+                                    <span class="progress-text">70%</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="skill-item">
+                            <span>JQuery</span>
+                            <div class="custom-progress">
+                                <div class="custom-progress-bar" style="width: 65%;">
+                                    <span class="progress-text">65%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Right Column -->
+                    <div class="col-lg-6 col-md-6 col-12 fade-up">
+                        <!-- Skill items -->
+                        <div class="skill-item">
+                            <span>Angular JS</span>
+                            <div class="custom-progress">
+                                <div class="custom-progress-bar" style="width: 70%;">
+                                    <span class="progress-text">70%</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="skill-item">
+                            <span>Node JS</span>
+                            <div class="custom-progress">
+                                <div class="custom-progress-bar" style="width: 65%;">
+                                    <span class="progress-text">65%</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                       <div class="skill-item">
+                            <span>React JS</span>
+                            <div class="custom-progress">
+                                <div class="custom-progress-bar" style="width: 70%;">
+                                    <span class="progress-text">70%</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="custom-progress">
+                                <div class="custom-progress-bar" style="width: 80%;">
+                                    <span class="progress-text">80%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <span>Django</span>
+                            <div class="custom-progress">
+                                <div class="custom-progress-bar" style="width: 70%;">
+                                    <span class="progress-text">70%</span>
+                                </div>
+                            </div>
+                        </div>
+    
+
+                    </div>
+                </div>
+            </div>
+        </section><!--End of Skills Section-->
+
+        <!-- ===== Resume ===== -->
+        <section id="resume">
+            <div class="container center-content resume-head">
+                <h1 style="color:#29f700; text-align: center" class="fade-up">Resume</h1>
+                <p style="text-align: center;" class="fade-up">
+                    I want to succeed in a stimulating and challenging environment, building the success of the company whilst I garner experience that would help me in my future endeavors. 
+                    I also want to be part of something big that leaves a mark on the society and helps in the betterment of people.<br>
+                    Finally, I am seeking to be a part of an environment where I can serve not only the company but also the society at large by inspiring others.
+                </p>
+                <div class="myresume">
+                    
+                    
+                    <div class="row">
+                        <!-- Left Column -->
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <div class="container fade-up"  style="position: relative;">
+                                <div class="vertical-line-left"></div>
+                                <h2>Summary</h2>
+                                <h4>Meenatchi Subramaniam</h4>
+                                <p>Recent BCA graduate with training as a Python Full Stack Developer. Passionate about utilizing my skills to contribute to innovative projects. Committed to continuous learning and problem-solving in dynamic development environments. Eager to take on new challenges that align with my career goals.</p>
+                                <div class="dot-text-container">
+                                    <p class="bullet">71, Bharathi Street, D.G.Pudhur</p>
+                                    <p class="bullet">Erode-638503</p>
+                                    <p class="bullet">(+91) 6382983819</p>
+                                    <p class="bullet">meenatchi224@gmail.com</p>
+                                </div>
+                            </div>
+        
+                            <div class="container"  style="position: relative;">
+                                <div class="vertical-line-left"></div>
+                                <h2>Skills</h2>
+                                <p class="bullet"><b>Front-end Development:</b></p>
+                                    <p style="padding-left: 10%;">
+                                        <span class="bullet">HTML</span> 
+                                        <span class="bullet">CSS</span>
+                                        <span class="bullet">Bootstrap</span>
+                                        <span class="bullet">Javascript</span>
+                                        <span class="bullet">Jquery</span>
+                                        <span class="bullet">React.js</span>
+                                        <span class="bullet">Angular.js</span>
+                                    </p>
+                                <p class="bullet"><b>Back-end Development:</b> </p>
+                                    <p style="padding-left: 10%;">
+                                        <span class="bullet">Python</span>
+                                        <span class="bullet">Django</span>
+                                        <span class="bullet">Node.js</span>
+                                        <span class="bullet">Express.js</span>
+                                    </p>
+                                <p class="bullet"><b>Soft Skills:</b></p>
+                                    <p style="padding-left: 10%;">
+                                        <span class="bullet">Team Collaboration</span>
+                                        <span class="bullet">Communication</span>
+                                        <span class="bullet">Problem-Solving</span>
+                                    </p>
+                            </div>
+        
+                            <div class="container" style="position: relative;">
+                                <div class="vertical-line-left"></div>
+                                <h2>Education</h2>
+                                <div class="education-section">
+                                    <h4>Bachelor of Computer Application (BCA)</h4>
+                                    <p class="education"><i>2019 - 2022</i></p>
+                                    <p>Gobi Arts & Science College</p>
+                                    <p>Graduated with distinction (81% marks)</p>
+                                </div>
+        
+                                <div class="education-section">
+                                    <h4>HSC</h4>
+                                    <p class="education"><i>2018 - 2019</i></p>
+                                    <p>Govt.Hr.Sec.School, Dasappagoundanpudur</p>
+                                    <p>Achieved 60% in 12th</p>
+                                </div>
+        
+                                <div class="education-section">
+                                    <h4>SSLC</h4>
+                                    <p class="education"><i>2016 - 2017</i></p>
+                                    <p>Govt.Hr.Sec.School, Dasappagoundanpudur</p>
+                                    <p>Achieved 91.8% 10th</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <!-- Right Column -->
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <div class="container fade-up"  style="position: relative;">
+                                <div class="vertical-line-right"></div>
+                                <h2>Experience</h2>
+                                <h4>Brainery Spot Technology</h4>
+                                <p class="experience"><i>Mar 2024 - Present</i></p>
+                                <p><b>Full stack developer</b></p>
+                                <p class="bullet">Completed a comprehensive Python Full Stack Developer course at Brainery Spot Technology.</p>
+                                <p class="bullet">Gained hands-on experience in web development, including front-end and back-end technologies.</p>
+                                <h4>TNQ Tech, Coimbatore</h4>
+                                <p class="experience"><i>Aug 2022 - Feb 2024</i></p>
+                                <p><b>Associate - Copyediting</b></p>
+                                <p class="bullet">Edited articles to improve clarity and ensure effective communication.</p>
+                                <p class="bullet">Successfully handled over 7000 articles without receiving negative feedback.</p>
+                                <p class="bullet">Managed deadlines to ensure timely publication of materials.</p>
+                            </div>
+        
+                            <div class="container" style="position: relative;">
+                                <div class="vertical-line-right"></div>
+                                <h2>Projects</h2>
+                                <h4>Responsive Personal Portfolio Website</h4>
+                                <p class="projects"><i>2024</i></p>
+                                <p class="bullet">Created a responsive portfolio website to effectively showcase projects and skills utilizing HTML, CSS, and JavaScript.
+                                </p>
+        
+                                <h4>E-Commerce Website Project: ShopZone</h4>
+                                <p class="projects"><i>2024</i></p>
+                                <p class="bullet">Developed a full-stack e-commerce website using Django, implementing features like product management, shopping cart, and secure checkout.</p>
+                                <p class="bullet">Designed a responsive user interface with Bootstrap to ensure optimal performance on both desktop and mobile devices.</p>
+                                <p class="bullet">Integrated user authentication and profile management to enhance user experience and security.</p>
+                            </div>
+        
+                            <div class="container" style="position: relative;">
+                                <div class="vertical-line-right"></div>
+                                <h2>Achievements</h2>
+                                <p class="bullet">Won first prize in an office chess competition in 2024.</p>
+                                <p class="bullet">Achieved recognition in various chess competitions at both school and college levels.</p>
+                                <p class="bullet">Possess a strong understanding of chess strategies and tactics, enhancing problem-solving and critical thinking skills.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!--End of Resume Section-->
+
+        <!-- ===== Area of Interest ===== -->
+        <section id="interest">
+            <div class="container center-content">
+                <h1 style="color:#29f700;" class="fade-up">Area of Interests</h1>
+                <p style="color:white;" class="fade-up">I am passionate about leveraging technology to solve real-world problems and create impactful solutions. With a keen interest in continuous learning, I stay updated with the latest industry trends and best practices.</p>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 fade-up">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Web Development</h5>
+                                <p class="card-text">Dedicated to creating and optimizing websites and web applications, focusing on user experience, performance, and functionality.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12 fade-up">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Full-Stack Web Development</h5>
+                                <p class="card-text">Passionate about developing and maintaining both client and server-side applications using modern technologies and frameworks.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12 fade-up">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Frontend Technologies</h5>
+                                <p class="card-text">Enthusiastic about building dynamic, responsive user interfaces with frameworks like React.js, Angular, and Bootstrap.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12 fade-up">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Backend Development</h5>
+                                <p class="card-text">Interested in working with server-side technologies, handling databases, and developing RESTful APIs with Node.js and Django.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12 fade-up">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Open Source Contributions</h5>
+                                <p class="card-text">Committed to contributing to open-source projects to enhance coding skills and collaborate with the developer community.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12 fade-up">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Testing and Quality Assurance</h5>
+                                <p class="card-text">Focused on ensuring the reliability and performance of applications through thorough testing and quality assurance processes.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section><!--End of Area of Interest-->
+       
+        <!-- ===== Contact ===== -->
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <h1 class="fade-up">Contact</h1>
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <div class="icon-wrapper fade-up">
+                            <i class="bi bi-geo-alt-fill icon"></i>
+                            <div class="icon-text-container">
+                                <h4 class="icon-text">Location:</h4>
+                                <p>71, Bharathi Street, Gobichettipalayam-638503</p>
+                            </div>
+                        </div>
+                        
+                        <div class="icon-wrapper fade-up">
+                            <i class="bi bi-envelope-fill icon"></i>
+                            <div class="icon-text-container">
+                                <h4 class="icon-text">Email:</h4>
+                                <p>meenatchi224@gmail.com</p>
+                            </div>
+                        </div>
+        
+                        <div class="icon-wrapper fade-up">
+                            <i class="bi bi-telephone-fill icon"></i>
+                            <div class="icon-text-container fade-up">
+                                <h4 class="icon-text">Phone:</h4>
+                                <p>+91 6382983819</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-6 col-md-6 col-12 fade-up">
+                        <form id="contactForm" class="mb-3">
+                            <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+                            <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+                            <input type="text" id="subject" class="form-control" placeholder="Subject" required>
+                            <textarea id="message" class="form-control" placeholder="Your Message" required></textarea>
+                            <br>
+                            <div class="button-container">
+                                <button type="submit" class="btn signin">Send Message</button>
+                            </div>
+                        </form>
+                        <div id="formResponse"></div>
+                    </div>
+                </div>
+            </div>
+        </section><!--End of Contact Section-->
+
+        <!-- End main-->
+
+        <!-- ===== Footer ===== -->
+        <footer>
+            <div class="container">
+                <h2>Meenatchi Subramaniam</h2>
+                <p>&copy; 2024 My Profile Blog. All Rights Reserved.</p>
+                <ul>
+                    <a href="www.linkedin.com/in/meenatchi-subramaniam" target="_blank">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    
+                    <a href="https://github.com/meenatchi-codes" target="_blank">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    
+                    <a href="mailto:meenatchi224@gmailcom">
+                        <i class="bi bi-envelope-fill"></i>
+                    </a>
+                </ul>
+            </div>
+        </footer><!-- End Footer -->
+
+        
+        <!-- Scroll to Top Button -->
+        <a href="#" id="scrollTopButton" title="Go to top">
+            <i class="bi bi-arrow-up"></i>
+        </a>
+        
+
+        <!-- JS file -->
+         <script src="static/js/script.js"></script>
+    </body>
+</html>
